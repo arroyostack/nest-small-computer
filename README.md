@@ -1,3 +1,7 @@
+[![NestJS](https://img.shields.io/badge/NestJS-%E2%9D%A4-red)](https://nestjs.com/)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-%F0%9F%91%8D-blue)](https://www.typescriptlang.org/)
+
 ## Description
 
 This repository serves as a guide for understanding and working with Nest.js, focusing on modules and dependency injection through a practical example.
@@ -10,6 +14,7 @@ The purpose of this project is to grasp the concepts of modules and dependency i
 A simple computer model, focusing on its core components: CPU, disk, and power supply. Each component will be modeled as a separate module, demonstrating how modules and dependency injection work together.
 
 ### Project Structure
+
 ![Screenshot 2024-02-12 at 12 25 04](https://github.com/arroyostack/nest-small-computer/assets/109061270/2848baa0-bbda-430b-b980-cb11b4a46c2a)
 
 - **Power Module**: Contains a service, Power Service, responsible for supplying power.
@@ -33,4 +38,10 @@ npm install
 npm run start:dev
 
 
+```
+
+# Endpoint
+
+```
+http://localhost:3000/computer
 ```
